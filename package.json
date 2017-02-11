@@ -1,6 +1,6 @@
 {
   "name": "zeppelin-markdown-spell",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Parse markdown using https://github.com/evilstreak/markdown-js",
   "main": "index.js",
   "scripts": {
@@ -24,8 +24,11 @@
     "markdown": "0.5.0",
     "zeppelin-spell": "*"
   },
-  "spell": {
-    "magic": "%markdown",
-    "usage": "%markdown <TEXT>"
+  "helium": {
+    "icon" : "<i class='fa fa-bold'></i>",
+    "spell": {
+      "magic": "%markdown",
+      "usage": "%markdown <TEXT>"
+    }
   }
 }

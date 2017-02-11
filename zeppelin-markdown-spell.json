@@ -1,0 +1,12 @@
+{
+  "type" : "SPELL",
+  "name" : "zeppelin-markdown-spell",
+  "description" : "Parse markdown using https://github.com/evilstreak/markdown-js (example)",
+  "artifact" : "/Users/lambda/github/1ambda/zeppelin-marakdown-spell",
+  "license" : "Apache-2.0",
+  "icon" : "<i class='fa fa-bold'></i>",
+  "spell": {
+    "magic": "%markdown",
+    "usage": "%markdown <TEXT>"
+  }
+}

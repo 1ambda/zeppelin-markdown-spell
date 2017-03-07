@@ -1,6 +1,6 @@
 {
   "name": "zeppelin-markdown-spell",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Parse markdown using https://github.com/evilstreak/markdown-js",
   "main": "index.js",
   "scripts": {
@@ -21,11 +21,21 @@
   },
   "homepage": "https://github.com/1ambda/zeppelin-markdown-spell#readme",
   "dependencies": {
-    "markdown": "0.5.0",
+    "markdown-it": "8.3.0",
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-container": "^2.0.0",
+    "markdown-it-deflist": "^2.0.1",
+    "markdown-it-emoji": "^1.3.0",
+    "markdown-it-footnote": "^3.0.1",
+    "markdown-it-ins": "^2.0.0",
+    "markdown-it-mark": "^2.0.0",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "highlight.js": "^9.9.0",
     "zeppelin-spell": "*"
   },
   "helium": {
-    "icon" : "<i class='fa fa-bold'></i>",
+    "icon" : "<img width=\"21\" height=\"21\" class=\"icon icons8-Markdown\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAACe0lEQVRoQ+1ZsXLTQBDdtURBGtxkJqghfxDnD+LB0PIJ2INJHb4k1NiMwx9Ai804fxDzB6HxZIYCpQlFJC2zSi5IsmSdZOlyUU6VZny3u++93b21DqEhDzYEBxgguilpFDGK1MSASa2aiC1ttlmK7Mwnu+j7xwDQQYDd0rQo3EgA5wCwIMv6cNEdnCODaPn+GQC0FcZRpSs3sKx9fD4dfUXEN1VaVm2LiL6hMxv/ecBqhJxxmjEQUs1gHf4MkDpY3cTm41Fk2RvGDk1nNj4BgLc57H1Z9ob96BqZWkzxJV2/uYokjbfnk/aW758CwF4GmJ9XlnXgdgeu1kA4uO3vnzpPEE8B8VkMDNHlNdHB79eHiyRI7RQRAe78+NxvEU2iAQeIg4uX7zj1Vh5tgXCkialgpS60Ti1OK5E6XC9PfT9Mo7+W1RF1EV0jwGiniDMdnV3ZdjcaNAcbBbflefPlq/f7Wityy+zJsjccZNQC102/TCsts0fEULj9ihRJK+xoA8gLal1jyDqj0hrMxkAAwL0Ogq5IqbAlt1pzMUnnAeEAioBZB4JtlVbkZn6mBdcLv3JdAGJHMCQDJElGlhJJktLWbQbkxqI4N2IjiSQQ3h9TNhmkDIjNFcmiEAAKALlTNjnWhONQQuksl1Uokmq7EJBImgowRUDoo8h/Ku7aujMbh218jeixn/RRJALm9lUahJQisozc97pcRe47QFn/BogsU6rWoTMduSv/9FR5r8gPAfxqzifT8CO25y0erCpEl4Ft8y0CQHit4HkfeehDgBcVKV6rGU4nHlrJto/Ca4VavSk0boAoJFvKlVFEiiaFi4wiCsmWctUYRf4BU7yc5SpD5zUAAAAASUVORK5CYII=\" >",
     "spell": {
       "magic": "%markdown",
       "usage": "%markdown <TEXT>"
